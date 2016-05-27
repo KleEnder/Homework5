@@ -1,0 +1,48 @@
+body {
+    margin-bottom: ;
+    background: #50C9C3; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #50C9C3 , #96DEDA); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #50C9C3 , #96DEDA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 1.5em;
+           
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 78%;
+    margin: auto;
+}
+
+.glyphicon.glyphicon-chevron-left,
+.glyphicon.glyphicon-chevron-right {
+    font-size: 56px;
+}
+
+ul, 
+ol {
+    list-style-type: none;
+}
+
+.navbar-static-bottom {
+    top: 32px;
+}
+
+.navigation > li > a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navigation > li > a:hover {
+    text-decoration: none;
+    color: #96DEDA;
+}
+
+.services {
+    border: 0px solid #50C9C3;  
+}
+
+@media screen and (max-width: 2800px) and (min-width: 768px) {
+    .inputa {
+        top: 10px;
+    }
+}
